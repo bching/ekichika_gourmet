@@ -1,5 +1,5 @@
 from .apikey import hotpper_apikey
-from .translate import translate
+from g_translate import translate
 import requests
 
 # TODO: working hour?

@@ -1,7 +1,5 @@
-from apikey import google_apikey
+from .credentials import google_apikey
 import requests
-import sys
-import os
 
 
 def translate(texts):
@@ -13,8 +11,6 @@ def translate(texts):
                         for x in json['data']['translations']]
     return translated_texts
 
-
-sys.path.append(os.path.abspath(__file__))
 
 if __name__ == '__main__':
     print(translate(['こんにちは', '東京']))

@@ -1,6 +1,5 @@
-from g_translate import translate
-from metro import metro_api
-from hotpper import hotpper_api
+from apis import metro_api
+from apis import hotpper_api
 
 """
 目黒駅 is @35.6340074,139.7135059

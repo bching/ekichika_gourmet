@@ -1,4 +1,8 @@
 env
 *.DS_Store
 *.pyc
+*.swo
+*.swp
+*.bak
 __pycache__
+apikey.py
